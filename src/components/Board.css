@@ -1,0 +1,15 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 6rem);
+    place-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin: 50px;
+    color: aqua;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
